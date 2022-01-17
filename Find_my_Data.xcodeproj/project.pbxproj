@@ -23,6 +23,7 @@
 		26D0ADCA24FD1F5400A08AD7 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0ADC924FD1F5400A08AD7 /* InfoViewController.swift */; };
 		26D0ADCD24FD228400A08AD7 /* SensitiveDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0ADCC24FD228400A08AD7 /* SensitiveDataController.swift */; };
 		26D0ADD024FD296A00A08AD7 /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0ADCF24FD296A00A08AD7 /* MyLabel.swift */; };
+		5A44469B27956BF6001D50CA /* gitleaks.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5A44469A27956BF6001D50CA /* gitleaks.yml */; };
 		DD7279DA7AA9DB1C0CD58362 /* Pods_Find_my_Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC48E2C60B92C3ADB1C63F45 /* Pods_Find_my_Data.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		41BBC2DE6E0D9F7380B5E4E7 /* Pods-iOS-Shack-v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Shack-v2.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Shack-v2/Pods-iOS-Shack-v2.debug.xcconfig"; sourceTree = "<group>"; };
 		4616294E7E7D0CD71CAA48FB /* Pods-iOS-Shack-v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Shack-v2.release.xcconfig"; path = "Target Support Files/Pods-iOS-Shack-v2/Pods-iOS-Shack-v2.release.xcconfig"; sourceTree = "<group>"; };
 		4CDA97DA42FA76BAF57770B7 /* Pods-Find_my_Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find_my_Data.release.xcconfig"; path = "Target Support Files/Pods-Find_my_Data/Pods-Find_my_Data.release.xcconfig"; sourceTree = "<group>"; };
+		5A44469A27956BF6001D50CA /* gitleaks.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = gitleaks.yml; path = .github/workflows/gitleaks.yml; sourceTree = "<group>"; };
 		CC48E2C60B92C3ADB1C63F45 /* Pods_Find_my_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_my_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 		26D0ADA324FC841B00A08AD7 = {
 			isa = PBXGroup;
 			children = (
+				5A44469A27956BF6001D50CA /* gitleaks.yml */,
 				2660B43927942CD8004A90AE /* secret */,
 				262F4E8B278C65CE0007DC97 /* .github */,
 				26D0ADAE24FC841B00A08AD7 /* iOS-Shack-v2 */,
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A44469B27956BF6001D50CA /* gitleaks.yml in Resources */,
 				26D0ADBC24FC841F00A08AD7 /* LaunchScreen.storyboard in Resources */,
 				26D0ADC424FD1AF600A08AD7 /* appstore.png in Resources */,
 				2660B43A27942CD9004A90AE /* secret in Resources */,
