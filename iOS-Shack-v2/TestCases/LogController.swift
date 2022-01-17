@@ -62,9 +62,9 @@ class LogController: UIViewController {
         
         print("Print - credentials being used \(parameterDictionary)")
         
-//        #if DEBUG
+        #if DEBUG
             NSLog("NSLog - credentials being used: %@", parameterDictionary)
-//        #endif
+        #endif
         
         os_log("OS_LOG - credentials being used: %{public}@", log: .default, parameterDictionary)
         
